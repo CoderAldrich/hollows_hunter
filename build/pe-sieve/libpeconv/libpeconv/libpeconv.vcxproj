@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8EA951F8-548B-3B03-B9C5-B471CD3445B6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>libpeconv</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">G:\GitHub\hollows_hunter\build\pe-sieve\libpeconv\libpeconv\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libpeconv.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libpeconv</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">G:\GitHub\hollows_hunter\build\pe-sieve\libpeconv\libpeconv\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libpeconv.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libpeconv</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">G:\GitHub\hollows_hunter\build\pe-sieve\libpeconv\libpeconv\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libpeconv.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libpeconv</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">G:\GitHub\hollows_hunter\build\pe-sieve\libpeconv\libpeconv\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libpeconv.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libpeconv</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\GitHub\hollows_hunter\pe-sieve\include;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\GitHub\hollows_hunter\pe-sieve\include;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GitHub\hollows_hunter\pe-sieve\include;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\GitHub\hollows_hunter\pe-sieve\include;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\GitHub\hollows_hunter\pe-sieve\include;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GitHub\hollows_hunter\pe-sieve\include;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\GitHub\hollows_hunter\pe-sieve\include;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\GitHub\hollows_hunter\pe-sieve\include;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GitHub\hollows_hunter\pe-sieve\include;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>G:\GitHub\hollows_hunter\pe-sieve\include;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>G:\GitHub\hollows_hunter\pe-sieve\include;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>G:\GitHub\hollows_hunter\pe-sieve\include;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule G:/GitHub/hollows_hunter/pe-sieve/libpeconv/libpeconv/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -HG:/GitHub/hollows_hunter -BG:/GitHub/hollows_hunter/build --check-stamp-file G:/GitHub/hollows_hunter/build/pe-sieve/libpeconv/libpeconv/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">G:/GitHub/hollows_hunter/pe-sieve/libpeconv/libpeconv/CMakeLists.txt;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\CMakeLists.txt;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">G:\GitHub\hollows_hunter\build\pe-sieve\libpeconv\libpeconv\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule G:/GitHub/hollows_hunter/pe-sieve/libpeconv/libpeconv/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -HG:/GitHub/hollows_hunter -BG:/GitHub/hollows_hunter/build --check-stamp-file G:/GitHub/hollows_hunter/build/pe-sieve/libpeconv/libpeconv/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">G:/GitHub/hollows_hunter/pe-sieve/libpeconv/libpeconv/CMakeLists.txt;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\CMakeLists.txt;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">G:\GitHub\hollows_hunter\build\pe-sieve\libpeconv\libpeconv\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule G:/GitHub/hollows_hunter/pe-sieve/libpeconv/libpeconv/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -HG:/GitHub/hollows_hunter -BG:/GitHub/hollows_hunter/build --check-stamp-file G:/GitHub/hollows_hunter/build/pe-sieve/libpeconv/libpeconv/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">G:/GitHub/hollows_hunter/pe-sieve/libpeconv/libpeconv/CMakeLists.txt;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\CMakeLists.txt;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">G:\GitHub\hollows_hunter\build\pe-sieve\libpeconv\libpeconv\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule G:/GitHub/hollows_hunter/pe-sieve/libpeconv/libpeconv/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -HG:/GitHub/hollows_hunter -BG:/GitHub/hollows_hunter/build --check-stamp-file G:/GitHub/hollows_hunter/build/pe-sieve/libpeconv/libpeconv/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">G:/GitHub/hollows_hunter/pe-sieve/libpeconv/libpeconv/CMakeLists.txt;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\CMakeLists.txt;G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">G:\GitHub\hollows_hunter\build\pe-sieve\libpeconv\libpeconv\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\pe_hdrs_helper.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\pe_mode_detector.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\pe_raw_to_virtual.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\pe_virtual_to_raw.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\relocate.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\util.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\buffer_util.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\remote_pe_reader.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\imports_loader.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\fix_imports.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\pe_loader.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\pe_dumper.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\exports_lookup.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\function_resolver.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\hooks.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\exported_func.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\exports_mapper.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\file_util.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\resource_util.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\imports_uneraser.h" />
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\include\peconv\caves.h" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\pe_hdrs_helper.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\pe_mode_detector.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\pe_raw_to_virtual.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\pe_virtual_to_raw.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\relocate.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\buffer_util.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\remote_pe_reader.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\imports_loader.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\fix_imports.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\pe_loader.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\pe_dumper.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\exports_lookup.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\function_resolver.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\hooks.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\exported_func.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\exports_mapper.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\file_util.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\resource_util.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\imports_uneraser.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\caves.cpp" />
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\libpeconv\libpeconv\src\util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="G:\GitHub\hollows_hunter\build\ZERO_CHECK.vcxproj">
+      <Project>{23B5975F-4223-344E-87BB-D20D393D2380}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

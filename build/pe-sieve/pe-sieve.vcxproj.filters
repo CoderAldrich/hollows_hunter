@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\pe_sieve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\pe_sieve_params_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\report_formatter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\results_dumper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\pe_reconstructor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\mapping_scanner.cpp">
+      <Filter>Source Files\scanners</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\hollowing_scanner.cpp">
+      <Filter>Source Files\scanners</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\hook_scanner.cpp">
+      <Filter>Source Files\scanners</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\mempage_scanner.cpp">
+      <Filter>Source Files\scanners</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\artefact_scanner.cpp">
+      <Filter>Source Files\scanners</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\scanner.cpp">
+      <Filter>Source Files\scanners</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\module_data.cpp">
+      <Filter>Source Files\scanners</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\mempage_data.cpp">
+      <Filter>Source Files\scanners</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\patch_list.cpp">
+      <Filter>Source Files\scanners</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\patch_analyzer.cpp">
+      <Filter>Source Files\scanners</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\scan_report.cpp">
+      <Filter>Source Files\scanners</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\scanned_modules.cpp">
+      <Filter>Source Files\scanners</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\utils\process_privilege.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\utils\util.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\utils\path_converter.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\utils\workingset_enum.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\utils\modules_enum.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\utils\artefacts_util.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="G:\GitHub\hollows_hunter\pe-sieve\dll_main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\pe_sieve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\pe_sieve_params_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\report_formatter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\results_dumper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\pe_reconstructor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\include\pe_sieve_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\mapping_scanner.h">
+      <Filter>Header Files\scanners</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\hollowing_scanner.h">
+      <Filter>Header Files\scanners</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\hook_scanner.h">
+      <Filter>Header Files\scanners</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\module_scanner.h">
+      <Filter>Header Files\scanners</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\mempage_scanner.h">
+      <Filter>Header Files\scanners</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\artefact_scanner.h">
+      <Filter>Header Files\scanners</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\scanner.h">
+      <Filter>Header Files\scanners</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\module_scan_report.h">
+      <Filter>Header Files\scanners</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\scan_report.h">
+      <Filter>Header Files\scanners</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\module_data.h">
+      <Filter>Header Files\scanners</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\mempage_data.h">
+      <Filter>Header Files\scanners</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\pe_section.h">
+      <Filter>Header Files\scanners</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\patch_list.h">
+      <Filter>Header Files\scanners</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\patch_analyzer.h">
+      <Filter>Header Files\scanners</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\scanners\scanned_modules.h">
+      <Filter>Header Files\scanners</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\utils\util.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\utils\path_converter.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\utils\process_privilege.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\utils\workingset_enum.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\utils\modules_enum.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\utils\artefacts_util.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="G:\GitHub\hollows_hunter\pe-sieve\include\pe_sieve_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="G:\GitHub\hollows_hunter\pe-sieve\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="G:\GitHub\hollows_hunter\pe-sieve\main.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4E2315AF-A82D-3047-8C99-8211EE100554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scanners">
+      <UniqueIdentifier>{4CBAA124-71AA-323A-AB78-95FBD7E7F6AB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{2F1EA187-7736-32F6-8AA0-61B2FE60F21E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2D80425F-4246-3DEF-9841-967F9B51A959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scanners">
+      <UniqueIdentifier>{3F41D99A-CFB8-3B1F-B58C-602AC24C3149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{D96250C0-0993-370B-8ECA-2737813AE3F3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

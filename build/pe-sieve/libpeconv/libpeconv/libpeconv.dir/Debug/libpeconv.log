@@ -1,0 +1,27 @@
+﻿  Building Custom Rule G:/GitHub/hollows_hunter/pe-sieve/libpeconv/libpeconv/CMakeLists.txt
+  CMake does not need to re-run because G:/GitHub/hollows_hunter/build/pe-sieve/libpeconv/libpeconv/CMakeFiles/generate.stamp is up-to-date.
+  pe_hdrs_helper.cpp
+  pe_mode_detector.cpp
+  pe_raw_to_virtual.cpp
+  pe_virtual_to_raw.cpp
+  relocate.cpp
+  buffer_util.cpp
+  remote_pe_reader.cpp
+  imports_loader.cpp
+  fix_imports.cpp
+  pe_loader.cpp
+  pe_dumper.cpp
+  exports_lookup.cpp
+  function_resolver.cpp
+  hooks.cpp
+  exported_func.cpp
+  exports_mapper.cpp
+  file_util.cpp
+  resource_util.cpp
+  imports_uneraser.cpp
+  caves.cpp
+  正在生成代码...
+  正在编译...
+  util.cpp
+  正在生成代码...
+  libpeconv.vcxproj -> G:\GitHub\hollows_hunter\build\pe-sieve\libpeconv\libpeconv\Debug\libpeconv.lib
