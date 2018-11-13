@@ -1,8 +1,2 @@
-﻿  Building Custom Rule G:/GitHub/hollows_hunter/CMakeLists.txt
-  CMake does not need to re-run because G:/GitHub/hollows_hunter/build/CMakeFiles/generate.stamp is up-to-date.
-  main.cpp
-  term_util.cpp
-  hollows_hunter.cpp
-  正在生成代码...
-  hollows_hunter.vcxproj -> G:\GitHub\hollows_hunter\build\Debug\hollows_hunter.exe
+﻿  hollows_hunter.vcxproj -> G:\GitHub\hollows_hunter\build\Debug\hollows_hunter.exe
   hollows_hunter.vcxproj -> G:/GitHub/hollows_hunter/build/Debug/hollows_hunter.pdb (Full PDB)

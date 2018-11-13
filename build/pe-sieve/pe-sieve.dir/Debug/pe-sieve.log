@@ -1,32 +1,3 @@
-﻿  Building Custom Rule G:/GitHub/hollows_hunter/pe-sieve/CMakeLists.txt
-  CMake does not need to re-run because G:/GitHub/hollows_hunter/build/pe-sieve/CMakeFiles/generate.stamp is up-to-date.
-  pe_sieve.cpp
-  pe_sieve_params_info.cpp
-  report_formatter.cpp
-  results_dumper.cpp
-  pe_reconstructor.cpp
-  mapping_scanner.cpp
-  hollowing_scanner.cpp
-  hook_scanner.cpp
-  mempage_scanner.cpp
-  artefact_scanner.cpp
-  scanner.cpp
-  module_data.cpp
-  mempage_data.cpp
-  patch_list.cpp
-  patch_analyzer.cpp
-  scan_report.cpp
-  scanned_modules.cpp
-  process_privilege.cpp
-  util.cpp
-  path_converter.cpp
-  正在生成代码...
-  正在编译...
-  workingset_enum.cpp
-  modules_enum.cpp
-  artefacts_util.cpp
-  dll_main.cpp
-  正在生成代码...
-    正在创建库 G:/GitHub/hollows_hunter/build/pe-sieve/Debug/pe-sieve.lib 和对象 G:/GitHub/hollows_hunter/build/pe-sieve/Debug/pe-sieve.exp
+﻿    正在创建库 G:/GitHub/hollows_hunter/build/pe-sieve/Debug/pe-sieve.lib 和对象 G:/GitHub/hollows_hunter/build/pe-sieve/Debug/pe-sieve.exp
   pe-sieve.vcxproj -> G:\GitHub\hollows_hunter\build\pe-sieve\Debug\pe-sieve.dll
   pe-sieve.vcxproj -> G:/GitHub/hollows_hunter/build/pe-sieve/Debug/pe-sieve.pdb (Full PDB)
